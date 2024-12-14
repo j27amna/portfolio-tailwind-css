@@ -43,7 +43,7 @@ const Footer = () => {
           <div className='flex flex-row gap-2'>
           <Link className="text-gray-700 hover:text-blue-500 mt-2 text-lg hover:text-2xl" href="https://www.linkedin.com/in/j27amna/"><TiSocialLinkedin /></Link>
           <Link className="text-gray-700 hover:text-black mt-2 text-lg hover:text-2xl" href="https://github.com/j27amna"><FaSquareGithub /></Link>
-          <li className="text-gray-700 hover:text-black mt-2 text-lg hover:text-2xl"><IoMdShare /></li>
+          <li className="text-gray-700 hover:text-black mt-2 text-lg hover:text-2xl" href="https://portfolio-tailwind-css-phi.vercel.app/"><IoMdShare /></li>
           <Link className="text-gray-700 hover:text-black mt-2 text-lg hover:text-2xl" href="https://vercel.com/amna-jehanzebs-projects"><SiVercel /></Link>
           </div>
         </nav>
