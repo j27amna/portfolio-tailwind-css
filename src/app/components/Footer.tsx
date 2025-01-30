@@ -7,7 +7,7 @@ import { SiVercel } from "react-icons/si";
 
 const Footer = () => {
   return (
-    <footer className='bg-blue-100'>
+    <footer className='bg-blue-100 h-full w-full mb-[-500px] py-11'>
       <hr className='bg-gray-700 shadow-2xl'/>
       <hr className='bg-gray-700 shadow-2xl'/>
       <div className="container px-5 py-24 mx-auto flex md:items-center lg:items-center md:flex-row md:flex-nowrap flex-wrap flex-col">

@@ -1,11 +1,12 @@
 import Image from "next/image";
 import Hero from "./components/Hero";
 import Footer from "./components/Footer";
+import Journey from "./components/Journey";
 
 export default function Home() {
   return (
-  <main className="w-screen h-screen relative">
-    <div className="flex items-center w-full h-full bg-cover bg-gradient-to-br from-pink-100 to bg-blue-200">
+  <main className="mb-[-500px]">
+    <div className="flex items-center w-full h-screen bg-cover bg-gradient-to-br from-pink-100 to bg-blue-200">
       <div className="pl-20 md:pl-30 pb-56 md:pb-20 flex flex-col gap-5 z-[10] max-w-[750px]">
         <h1 className="text-[50px] font-semibold text-blue-400">
           I'm a
@@ -19,8 +20,10 @@ export default function Home() {
           <Image className="flex object-cover ml-16" src="/ico.jpg" alt="image" width="600" height="250"/>
         </div>
     </div>
-      <Hero/>
-      <Footer/>
+    <Hero/>
+   <Journey />
+   <Footer />
   </main>  
+  
   );
 }

@@ -15,7 +15,8 @@ const config: Config = {
         },
       },
       backgroundImage : {
-        'contact-image': "url(/bgimg.jpg)"
+        'contact-image': "url(/bgimg.jpg)",
+        'video': "url(/video2.mp4)"
       }
     },
   },
